@@ -2,25 +2,25 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### ReactNativeAmplifyProject <a name="ReactNativeAmplifyProject" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject"></a>
+### ReactNativeAmplifyProject <a name="ReactNativeAmplifyProject" id="projen-react-native-amplify.ReactNativeAmplifyProject"></a>
 
-#### Initializers <a name="Initializers" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="projen-react-native-amplify.ReactNativeAmplifyProject.Initializer"></a>
 
 ```typescript
-import { ReactNativeAmplifyProject } from 'ProjenReactNativeAmplify'
+import { ReactNativeAmplifyProject } from 'projen-react-native-amplify'
 
 new ReactNativeAmplifyProject(options: ReactNativeAmplifyProjectOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.Initializer.parameter.options">options</a></code> | <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions">ReactNativeAmplifyProjectOptions</a></code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.Initializer.parameter.options">options</a></code> | <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions">ReactNativeAmplifyProjectOptions</a></code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="projen-react-native-amplify.ReactNativeAmplifyProject.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions">ReactNativeAmplifyProjectOptions</a>
+- *Type:* <a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions">ReactNativeAmplifyProjectOptions</a>
 
 ---
 
@@ -28,40 +28,40 @@ new ReactNativeAmplifyProject(options: ReactNativeAmplifyProjectOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBins">addBins</a></code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addBins">addBins</a></code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
 
 ---
 
-##### `toString` <a name="toString" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.toString"></a>
+##### `toString` <a name="toString" id="projen-react-native-amplify.ReactNativeAmplifyProject.toString"></a>
 
 ```typescript
 public toString(): string
@@ -69,7 +69,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-react-native-amplify.ReactNativeAmplifyProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: ...string[]): void
@@ -80,7 +80,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="projen-react-native-amplify.ReactNativeAmplifyProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* ...string[]
 
@@ -88,7 +88,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="projen-react-native-amplify.ReactNativeAmplifyProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -96,7 +96,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-react-native-amplify.ReactNativeAmplifyProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -104,7 +104,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-react-native-amplify.ReactNativeAmplifyProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(pattern: string): void
@@ -112,7 +112,7 @@ public addPackageIgnore(pattern: string): void
 
 Adds patterns to be ignored by npm.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPackageIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-react-native-amplify.ReactNativeAmplifyProject.addPackageIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -120,7 +120,7 @@ The pattern to ignore.
 
 ---
 
-##### `addTask` <a name="addTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTask"></a>
+##### `addTask` <a name="addTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -131,7 +131,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -139,7 +139,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -147,7 +147,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -155,7 +155,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -163,7 +163,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="projen-react-native-amplify.ReactNativeAmplifyProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -177,7 +177,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="projen-react-native-amplify.ReactNativeAmplifyProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -185,7 +185,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="projen-react-native-amplify.ReactNativeAmplifyProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -195,7 +195,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="projen-react-native-amplify.ReactNativeAmplifyProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -203,7 +203,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -211,7 +211,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -219,7 +219,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="projen-react-native-amplify.ReactNativeAmplifyProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -230,7 +230,7 @@ Returns the shell command to execute in order to run a task.
 This will
 typically be `npx projen TASK`.
 
-###### `task`<sup>Required</sup> <a name="task" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="projen-react-native-amplify.ReactNativeAmplifyProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -238,7 +238,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.synth"></a>
+##### `synth` <a name="synth" id="projen-react-native-amplify.ReactNativeAmplifyProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -253,7 +253,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -261,7 +261,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -272,7 +272,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -280,7 +280,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -288,7 +288,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -296,7 +296,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -304,7 +304,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -312,7 +312,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-react-native-amplify.ReactNativeAmplifyProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -323,19 +323,19 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addBins` <a name="addBins" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBins"></a>
+##### `addBins` <a name="addBins" id="projen-react-native-amplify.ReactNativeAmplifyProject.addBins"></a>
 
 ```typescript
 public addBins(bins: {[ key: string ]: string}): void
 ```
 
-###### `bins`<sup>Required</sup> <a name="bins" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBins.parameter.bins"></a>
+###### `bins`<sup>Required</sup> <a name="bins" id="projen-react-native-amplify.ReactNativeAmplifyProject.addBins.parameter.bins"></a>
 
 - *Type:* {[ key: string ]: string}
 
 ---
 
-##### `addBundledDeps` <a name="addBundledDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBundledDeps"></a>
+##### `addBundledDeps` <a name="addBundledDeps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addBundledDeps"></a>
 
 ```typescript
 public addBundledDeps(deps: ...string[]): void
@@ -346,7 +346,7 @@ Defines bundled dependencies.
 Bundled dependencies will be added as normal dependencies as well as to the
 `bundledDependencies` section of your `package.json`.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addBundledDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addBundledDeps.parameter.deps"></a>
 
 - *Type:* ...string[]
 
@@ -360,7 +360,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addCompileCommand"></a>
+##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="projen-react-native-amplify.ReactNativeAmplifyProject.addCompileCommand"></a>
 
 ```typescript
 public addCompileCommand(commands: ...string[]): void
@@ -368,13 +368,13 @@ public addCompileCommand(commands: ...string[]): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addCompileCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="projen-react-native-amplify.ReactNativeAmplifyProject.addCompileCommand.parameter.commands"></a>
 
 - *Type:* ...string[]
 
 ---
 
-##### `addDeps` <a name="addDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDeps"></a>
+##### `addDeps` <a name="addDeps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addDeps"></a>
 
 ```typescript
 public addDeps(deps: ...string[]): void
@@ -382,7 +382,7 @@ public addDeps(deps: ...string[]): void
 
 Defines normal dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addDeps.parameter.deps"></a>
 
 - *Type:* ...string[]
 
@@ -396,7 +396,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addDevDeps` <a name="addDevDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDevDeps"></a>
+##### `addDevDeps` <a name="addDevDeps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addDevDeps"></a>
 
 ```typescript
 public addDevDeps(deps: ...string[]): void
@@ -404,7 +404,7 @@ public addDevDeps(deps: ...string[]): void
 
 Defines development/test dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addDevDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addDevDeps.parameter.deps"></a>
 
 - *Type:* ...string[]
 
@@ -418,7 +418,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addFields` <a name="addFields" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addFields"></a>
+##### `addFields` <a name="addFields" id="projen-react-native-amplify.ReactNativeAmplifyProject.addFields"></a>
 
 ```typescript
 public addFields(fields: {[ key: string ]: any}): void
@@ -426,7 +426,7 @@ public addFields(fields: {[ key: string ]: any}): void
 
 Directly set fields in `package.json`.
 
-###### `fields`<sup>Required</sup> <a name="fields" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addFields.parameter.fields"></a>
+###### `fields`<sup>Required</sup> <a name="fields" id="projen-react-native-amplify.ReactNativeAmplifyProject.addFields.parameter.fields"></a>
 
 - *Type:* {[ key: string ]: any}
 
@@ -434,7 +434,7 @@ The fields to set.
 
 ---
 
-##### `addKeywords` <a name="addKeywords" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addKeywords"></a>
+##### `addKeywords` <a name="addKeywords" id="projen-react-native-amplify.ReactNativeAmplifyProject.addKeywords"></a>
 
 ```typescript
 public addKeywords(keywords: ...string[]): void
@@ -442,7 +442,7 @@ public addKeywords(keywords: ...string[]): void
 
 Adds keywords to package.json (deduplicated).
 
-###### `keywords`<sup>Required</sup> <a name="keywords" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addKeywords.parameter.keywords"></a>
+###### `keywords`<sup>Required</sup> <a name="keywords" id="projen-react-native-amplify.ReactNativeAmplifyProject.addKeywords.parameter.keywords"></a>
 
 - *Type:* ...string[]
 
@@ -450,7 +450,7 @@ The keywords to add.
 
 ---
 
-##### `addPeerDeps` <a name="addPeerDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPeerDeps"></a>
+##### `addPeerDeps` <a name="addPeerDeps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addPeerDeps"></a>
 
 ```typescript
 public addPeerDeps(deps: ...string[]): void
@@ -462,7 +462,7 @@ When adding peer dependencies, a devDependency will also be added on the
 pinned version of the declared peer. This will ensure that you are testing
 your code against the minimum version required from your consumers.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addPeerDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProject.addPeerDeps.parameter.deps"></a>
 
 - *Type:* ...string[]
 
@@ -476,7 +476,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addScripts` <a name="addScripts" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addScripts"></a>
+##### `addScripts` <a name="addScripts" id="projen-react-native-amplify.ReactNativeAmplifyProject.addScripts"></a>
 
 ```typescript
 public addScripts(scripts: {[ key: string ]: string}): void
@@ -484,7 +484,7 @@ public addScripts(scripts: {[ key: string ]: string}): void
 
 Replaces the contents of multiple npm package.json scripts.
 
-###### `scripts`<sup>Required</sup> <a name="scripts" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addScripts.parameter.scripts"></a>
+###### `scripts`<sup>Required</sup> <a name="scripts" id="projen-react-native-amplify.ReactNativeAmplifyProject.addScripts.parameter.scripts"></a>
 
 - *Type:* {[ key: string ]: string}
 
@@ -492,7 +492,7 @@ The scripts to set.
 
 ---
 
-##### ~~`addTestCommand`~~ <a name="addTestCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTestCommand"></a>
+##### ~~`addTestCommand`~~ <a name="addTestCommand" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTestCommand"></a>
 
 ```typescript
 public addTestCommand(commands: ...string[]): void
@@ -500,13 +500,13 @@ public addTestCommand(commands: ...string[]): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.addTestCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="projen-react-native-amplify.ReactNativeAmplifyProject.addTestCommand.parameter.commands"></a>
 
 - *Type:* ...string[]
 
 ---
 
-##### ~~`hasScript`~~ <a name="hasScript" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.hasScript"></a>
+##### ~~`hasScript`~~ <a name="hasScript" id="projen-react-native-amplify.ReactNativeAmplifyProject.hasScript"></a>
 
 ```typescript
 public hasScript(name: string): boolean
@@ -514,7 +514,7 @@ public hasScript(name: string): boolean
 
 Indicates if a script by the name name is defined.
 
-###### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.hasScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.hasScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -522,7 +522,7 @@ The name of the script.
 
 ---
 
-##### `removeScript` <a name="removeScript" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeScript"></a>
+##### `removeScript` <a name="removeScript" id="projen-react-native-amplify.ReactNativeAmplifyProject.removeScript"></a>
 
 ```typescript
 public removeScript(name: string): void
@@ -530,7 +530,7 @@ public removeScript(name: string): void
 
 Removes the npm script (always successful).
 
-###### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.removeScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.removeScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -538,7 +538,7 @@ The name of the script.
 
 ---
 
-##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.renderWorkflowSetup"></a>
+##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="projen-react-native-amplify.ReactNativeAmplifyProject.renderWorkflowSetup"></a>
 
 ```typescript
 public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
@@ -546,7 +546,7 @@ public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
 
 Returns the set of workflow steps which should be executed to bootstrap a workflow.
 
-###### `options`<sup>Optional</sup> <a name="options" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.renderWorkflowSetup.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="projen-react-native-amplify.ReactNativeAmplifyProject.renderWorkflowSetup.parameter.options"></a>
 
 - *Type:* projen.javascript.RenderWorkflowSetupOptions
 
@@ -554,7 +554,7 @@ Options.
 
 ---
 
-##### `setScript` <a name="setScript" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.setScript"></a>
+##### `setScript` <a name="setScript" id="projen-react-native-amplify.ReactNativeAmplifyProject.setScript"></a>
 
 ```typescript
 public setScript(name: string, command: string): void
@@ -562,7 +562,7 @@ public setScript(name: string, command: string): void
 
 Replaces the contents of an npm package.json script.
 
-###### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.setScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.setScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -570,7 +570,7 @@ The script name.
 
 ---
 
-###### `command`<sup>Required</sup> <a name="command" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.setScript.parameter.command"></a>
+###### `command`<sup>Required</sup> <a name="command" id="projen-react-native-amplify.ReactNativeAmplifyProject.setScript.parameter.command"></a>
 
 - *Type:* string
 
@@ -582,16 +582,16 @@ The command to execute.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="projen-react-native-amplify.ReactNativeAmplifyProject.isConstruct"></a>
 
 ```typescript
-import { ReactNativeAmplifyProject } from 'ProjenReactNativeAmplify'
+import { ReactNativeAmplifyProject } from 'projen-react-native-amplify'
 
 ReactNativeAmplifyProject.isConstruct(x: any)
 ```
@@ -612,7 +612,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="projen-react-native-amplify.ReactNativeAmplifyProject.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -620,26 +620,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.isProject"></a>
+##### `isProject` <a name="isProject" id="projen-react-native-amplify.ReactNativeAmplifyProject.isProject"></a>
 
 ```typescript
-import { ReactNativeAmplifyProject } from 'ProjenReactNativeAmplify'
+import { ReactNativeAmplifyProject } from 'projen-react-native-amplify'
 
 ReactNativeAmplifyProject.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="projen-react-native-amplify.ReactNativeAmplifyProject.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.of"></a>
+##### `of` <a name="of" id="projen-react-native-amplify.ReactNativeAmplifyProject.of"></a>
 
 ```typescript
-import { ReactNativeAmplifyProject } from 'ProjenReactNativeAmplify'
+import { ReactNativeAmplifyProject } from 'projen-react-native-amplify'
 
 ReactNativeAmplifyProject.of(construct: IConstruct)
 ```
@@ -648,7 +648,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="projen-react-native-amplify.ReactNativeAmplifyProject.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -658,72 +658,72 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version supported by this package. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | The minimum node version required by this package to function. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version supported by this package. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | The minimum node version required by this package to function. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -735,7 +735,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -745,7 +745,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -757,7 +757,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -767,7 +767,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -779,7 +779,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -791,7 +791,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -803,7 +803,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -815,7 +815,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -827,7 +827,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -839,7 +839,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -851,7 +851,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -863,7 +863,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -875,7 +875,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -885,7 +885,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -895,7 +895,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -905,7 +905,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -917,7 +917,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -929,7 +929,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -941,7 +941,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -953,7 +953,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -965,7 +965,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -975,7 +975,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -990,7 +990,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -1006,7 +1006,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -1020,7 +1020,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -1030,7 +1030,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -1042,7 +1042,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -1056,7 +1056,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -1070,7 +1070,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -1084,7 +1084,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -1098,7 +1098,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.allowLibraryDependencies"></a>
+##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.allowLibraryDependencies"></a>
 
 - *Deprecated:* use `package.allowLibraryDependencies`
 
@@ -1110,7 +1110,7 @@ public readonly allowLibraryDependencies: boolean;
 
 ---
 
-##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -1126,7 +1126,7 @@ tarball will be placed under `dist/js/boom-boom-1.2.3.tg`.
 
 ---
 
-##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.artifactsJavascriptDirectory"></a>
+##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.artifactsJavascriptDirectory"></a>
 
 ```typescript
 public readonly artifactsJavascriptDirectory: string;
@@ -1138,7 +1138,7 @@ The location of the npm tarball after build (`${artifactsDirectory}/js`).
 
 ---
 
-##### `bundler`<sup>Required</sup> <a name="bundler" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.bundler"></a>
+##### `bundler`<sup>Required</sup> <a name="bundler" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.bundler"></a>
 
 ```typescript
 public readonly bundler: Bundler;
@@ -1148,7 +1148,7 @@ public readonly bundler: Bundler;
 
 ---
 
-##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.entrypoint"></a>
+##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.entrypoint"></a>
 
 - *Deprecated:* use `package.entrypoint`
 
@@ -1160,7 +1160,7 @@ public readonly entrypoint: string;
 
 ---
 
-##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.manifest"></a>
+##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.manifest"></a>
 
 - *Deprecated:* use `package.addField(x, y)`
 
@@ -1172,7 +1172,7 @@ public readonly manifest: any;
 
 ---
 
-##### `npmrc`<sup>Required</sup> <a name="npmrc" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.npmrc"></a>
+##### `npmrc`<sup>Required</sup> <a name="npmrc" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.npmrc"></a>
 
 ```typescript
 public readonly npmrc: NpmConfig;
@@ -1184,7 +1184,7 @@ The .npmrc file.
 
 ---
 
-##### `package`<sup>Required</sup> <a name="package" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.package"></a>
+##### `package`<sup>Required</sup> <a name="package" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.package"></a>
 
 ```typescript
 public readonly package: NodePackage;
@@ -1196,7 +1196,7 @@ API for managing the node package.
 
 ---
 
-##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.packageManager"></a>
+##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.packageManager"></a>
 
 - *Deprecated:* use `package.packageManager`
 
@@ -1210,7 +1210,7 @@ The package manager to use.
 
 ---
 
-##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.runScriptCommand"></a>
+##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.runScriptCommand"></a>
 
 ```typescript
 public readonly runScriptCommand: string;
@@ -1222,7 +1222,7 @@ The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the p
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: AutoMerge;
@@ -1234,7 +1234,7 @@ Component that sets up mergify for merging approved pull requests.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: BuildWorkflow;
@@ -1248,7 +1248,7 @@ The PR build GitHub workflow.
 
 ---
 
-##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.buildWorkflowJobId"></a>
+##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.buildWorkflowJobId"></a>
 
 ```typescript
 public readonly buildWorkflowJobId: string;
@@ -1260,7 +1260,7 @@ The job ID of the build workflow.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.jest"></a>
 
 ```typescript
 public readonly jest: Jest;
@@ -1272,7 +1272,7 @@ The Jest configuration (if enabled).
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -1286,7 +1286,7 @@ The value indicates the package is incompatible with newer versions.
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -1300,7 +1300,7 @@ This value indicates the package is incompatible with older versions.
 
 ---
 
-##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.npmignore"></a>
+##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.npmignore"></a>
 
 ```typescript
 public readonly npmignore: IgnoreFile;
@@ -1312,7 +1312,7 @@ The .npmignore file.
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.prettier"></a>
 
 ```typescript
 public readonly prettier: Prettier;
@@ -1322,7 +1322,7 @@ public readonly prettier: Prettier;
 
 ---
 
-##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.publisher"></a>
+##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.publisher"></a>
 
 - *Deprecated:* use `release.publisher`.
 
@@ -1339,7 +1339,7 @@ release workflow.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.release"></a>
 
 ```typescript
 public readonly release: Release;
@@ -1351,7 +1351,7 @@ Release management.
 
 ---
 
-##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.upgradeWorkflow"></a>
+##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.upgradeWorkflow"></a>
 
 ```typescript
 public readonly upgradeWorkflow: UpgradeDependencies;
@@ -1363,7 +1363,7 @@ The upgrade workflow.
 
 ---
 
-##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -1373,7 +1373,7 @@ public readonly docsDirectory: string;
 
 ---
 
-##### `libdir`<sup>Required</sup> <a name="libdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.libdir"></a>
+##### `libdir`<sup>Required</sup> <a name="libdir" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -1385,7 +1385,7 @@ The directory in which compiled .js files reside.
 
 ---
 
-##### `srcdir`<sup>Required</sup> <a name="srcdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.srcdir"></a>
+##### `srcdir`<sup>Required</sup> <a name="srcdir" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -1397,7 +1397,7 @@ The directory in which the .ts sources reside.
 
 ---
 
-##### `testdir`<sup>Required</sup> <a name="testdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.testdir"></a>
+##### `testdir`<sup>Required</sup> <a name="testdir" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -1409,7 +1409,7 @@ The directory in which tests reside.
 
 ---
 
-##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfig;
@@ -1421,7 +1421,7 @@ A typescript configuration file which covers all files (sources, tests, projen).
 
 ---
 
-##### `watchTask`<sup>Required</sup> <a name="watchTask" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.watchTask"></a>
+##### `watchTask`<sup>Required</sup> <a name="watchTask" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.watchTask"></a>
 
 ```typescript
 public readonly watchTask: Task;
@@ -1433,7 +1433,7 @@ The "watch" task.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -1443,7 +1443,7 @@ public readonly docgen: boolean;
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.eslint"></a>
 
 ```typescript
 public readonly eslint: Eslint;
@@ -1453,7 +1453,7 @@ public readonly eslint: Eslint;
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfig;
@@ -1463,7 +1463,7 @@ public readonly tsconfig: TypescriptConfig;
 
 ---
 
-##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.tsconfigEslint"></a>
+##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.tsconfigEslint"></a>
 
 ```typescript
 public readonly tsconfigEslint: TypescriptConfig;
@@ -1477,12 +1477,12 @@ public readonly tsconfigEslint: TypescriptConfig;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
@@ -1497,7 +1497,7 @@ this task should synthesize the project files.
 
 ---
 
-##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="ProjenReactNativeAmplify.ReactNativeAmplifyProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
+##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="projen-react-native-amplify.ReactNativeAmplifyProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
 
 ```typescript
 public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
@@ -1509,12 +1509,12 @@ public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### ReactNativeAmplifyProjectOptions <a name="ReactNativeAmplifyProjectOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions"></a>
+### ReactNativeAmplifyProjectOptions <a name="ReactNativeAmplifyProjectOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions"></a>
 
-#### Initializer <a name="Initializer" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.Initializer"></a>
 
 ```typescript
-import { ReactNativeAmplifyProjectOptions } from 'ProjenReactNativeAmplify'
+import { ReactNativeAmplifyProjectOptions } from 'projen-react-native-amplify'
 
 const reactNativeAmplifyProjectOptions: ReactNativeAmplifyProjectOptions = { ... }
 ```
@@ -1523,161 +1523,161 @@ const reactNativeAmplifyProjectOptions: ReactNativeAmplifyProjectOptions = { ...
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bunVersion">bunVersion</a></code> | <code>string</code> | The version of Bun to use if using Bun as a package manager. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | The maximum node version supported by this package. Most projects should not use this option. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | The minimum node version required by this package to function. Most projects should not use this option. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bumpPackage">bumpPackage</a></code> | <code>string</code> | The `commit-and-tag-version` compatible package used to bump the package version, as a dependency string. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.nextVersionCommand">nextVersionCommand</a></code> | <code>string</code> | A shell command to control the next version to release. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with commit-and-tag-version package. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowOptions">buildWorkflowOptions</a></code> | <code>projen.javascript.BuildWorkflowOptions</code> | Options for PR build workflow. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version used in GitHub Actions workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prMention">prMention</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.reactNativeVersion">reactNativeVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.reactVersion">reactVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bunVersion">bunVersion</a></code> | <code>string</code> | The version of Bun to use if using Bun as a package manager. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | The maximum node version supported by this package. Most projects should not use this option. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | The minimum node version required by this package to function. Most projects should not use this option. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bumpPackage">bumpPackage</a></code> | <code>string</code> | The `commit-and-tag-version` compatible package used to bump the package version, as a dependency string. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.nextVersionCommand">nextVersionCommand</a></code> | <code>string</code> | A shell command to control the next version to release. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with commit-and-tag-version package. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowOptions">buildWorkflowOptions</a></code> | <code>projen.javascript.BuildWorkflowOptions</code> | Options for PR build workflow. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version used in GitHub Actions workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prMention">prMention</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.reactNativeVersion">reactNativeVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.reactVersion">reactVersion</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -1690,7 +1690,7 @@ This is the name of your project.
 
 ---
 
-##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -1703,7 +1703,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitIgnoreOptions"></a>
+##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitIgnoreOptions"></a>
 
 ```typescript
 public readonly gitIgnoreOptions: IgnoreFileOptions;
@@ -1715,7 +1715,7 @@ Configuration options for .gitignore file.
 
 ---
 
-##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitOptions"></a>
+##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitOptions"></a>
 
 ```typescript
 public readonly gitOptions: GitOptions;
@@ -1727,7 +1727,7 @@ Configuration options for git.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="logging" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="logging" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -1740,7 +1740,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="outdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="outdir" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -1759,7 +1759,7 @@ subprojects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -1771,7 +1771,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -1786,7 +1786,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -1799,7 +1799,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcJsonOptions;
@@ -1812,7 +1812,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.renovatebot"></a>
+##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.renovatebot"></a>
 
 ```typescript
 public readonly renovatebot: boolean;
@@ -1825,7 +1825,7 @@ Use renovatebot to handle dependency upgrades.
 
 ---
 
-##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.renovatebotOptions"></a>
+##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.renovatebotOptions"></a>
 
 ```typescript
 public readonly renovatebotOptions: RenovatebotOptions;
@@ -1838,7 +1838,7 @@ Options for renovatebot.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -1851,7 +1851,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: boolean;
@@ -1867,7 +1867,7 @@ is set to false.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -1883,7 +1883,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="clobber" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="clobber" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -1896,7 +1896,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -1909,7 +1909,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -1924,7 +1924,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -1937,7 +1937,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -1950,7 +1950,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -1965,7 +1965,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mergifyOptions"></a>
+##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mergifyOptions"></a>
 
 - *Deprecated:* use `githubOptions.mergifyOptions` instead
 
@@ -1980,7 +1980,7 @@ Options for mergify.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -1995,7 +1995,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenCredentials"></a>
+##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenCredentials"></a>
 
 ```typescript
 public readonly projenCredentials: GithubCredentials;
@@ -2008,7 +2008,7 @@ Choose a method of providing GitHub API access for projen workflows.
 
 ---
 
-##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenTokenSecret"></a>
+##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenTokenSecret"></a>
 
 - *Deprecated:* use `projenCredentials`
 
@@ -2026,7 +2026,7 @@ and `packages` scope.
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="readme" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="readme" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -2046,7 +2046,7 @@ The README setup.
 ```
 
 
-##### `stale`<sup>Optional</sup> <a name="stale" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="stale" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -2061,7 +2061,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -2076,7 +2076,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -2091,7 +2091,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.allowLibraryDependencies"></a>
+##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.allowLibraryDependencies"></a>
 
 ```typescript
 public readonly allowLibraryDependencies: boolean;
@@ -2107,7 +2107,7 @@ for specifying these.
 
 ---
 
-##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorEmail"></a>
 
 ```typescript
 public readonly authorEmail: string;
@@ -2119,7 +2119,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Optional</sup> <a name="authorName" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorName"></a>
+##### `authorName`<sup>Optional</sup> <a name="authorName" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorName"></a>
 
 ```typescript
 public readonly authorName: string;
@@ -2131,7 +2131,7 @@ Author's name.
 
 ---
 
-##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorOrganization"></a>
+##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorOrganization"></a>
 
 ```typescript
 public readonly authorOrganization: boolean;
@@ -2143,7 +2143,7 @@ Is the author an organization.
 
 ---
 
-##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.authorUrl"></a>
+##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.authorUrl"></a>
 
 ```typescript
 public readonly authorUrl: string;
@@ -2155,7 +2155,7 @@ Author's URL / Website.
 
 ---
 
-##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoDetectBin"></a>
+##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoDetectBin"></a>
 
 ```typescript
 public readonly autoDetectBin: boolean;
@@ -2168,7 +2168,7 @@ Automatically add all executables under the `bin` directory to your `package.jso
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="bin" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="bin" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bin"></a>
 
 ```typescript
 public readonly bin: {[ key: string ]: string};
@@ -2184,7 +2184,7 @@ executable file under `bin` will automatically be added to this section.
 
 ---
 
-##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bugsEmail"></a>
+##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bugsEmail"></a>
 
 ```typescript
 public readonly bugsEmail: string;
@@ -2196,7 +2196,7 @@ The email address to which issues should be reported.
 
 ---
 
-##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bugsUrl"></a>
+##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bugsUrl"></a>
 
 ```typescript
 public readonly bugsUrl: string;
@@ -2208,7 +2208,7 @@ The url to your project's issue tracker.
 
 ---
 
-##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bundledDeps"></a>
+##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bundledDeps"></a>
 
 ```typescript
 public readonly bundledDeps: string[];
@@ -2231,7 +2231,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `bunVersion`<sup>Optional</sup> <a name="bunVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bunVersion"></a>
+##### `bunVersion`<sup>Optional</sup> <a name="bunVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bunVersion"></a>
 
 ```typescript
 public readonly bunVersion: string;
@@ -2244,7 +2244,7 @@ The version of Bun to use if using Bun as a package manager.
 
 ---
 
-##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeArtifactOptions"></a>
+##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeArtifactOptions"></a>
 
 ```typescript
 public readonly codeArtifactOptions: CodeArtifactOptions;
@@ -2259,7 +2259,7 @@ This is required if publishing packages to, or installing scoped packages from A
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="deps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="deps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -2286,7 +2286,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `description`<sup>Optional</sup> <a name="description" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -2301,7 +2301,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-description
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.devDeps"></a>
 
 ```typescript
 public readonly devDeps: string[];
@@ -2332,7 +2332,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.entrypoint"></a>
+##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.entrypoint"></a>
 
 ```typescript
 public readonly entrypoint: string;
@@ -2347,7 +2347,7 @@ Set to an empty string to not include `main` in your package.json
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="homepage" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="homepage" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -2359,7 +2359,7 @@ Package's Homepage / Website.
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="keywords" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="keywords" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.keywords"></a>
 
 ```typescript
 public readonly keywords: string[];
@@ -2371,7 +2371,7 @@ Keywords to include in `package.json`.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="license" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="license" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -2387,7 +2387,7 @@ Use the `licensed` option if you want to no license to be specified.
 
 ---
 
-##### `licensed`<sup>Optional</sup> <a name="licensed" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.licensed"></a>
+##### `licensed`<sup>Optional</sup> <a name="licensed" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.licensed"></a>
 
 ```typescript
 public readonly licensed: boolean;
@@ -2400,7 +2400,7 @@ Indicates if a license should be added.
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -2419,7 +2419,7 @@ Consider this option only if your package is known to not function with newer ve
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -2442,7 +2442,7 @@ To change the node version of your CI/CD workflows, use `workflowNodeVersion`.
 
 ---
 
-##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmAccess"></a>
+##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmAccess"></a>
 
 ```typescript
 public readonly npmAccess: NpmAccess;
@@ -2455,7 +2455,7 @@ Access level of the npm package.
 
 ---
 
-##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmProvenance"></a>
+##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmProvenance"></a>
 
 ```typescript
 public readonly npmProvenance: boolean;
@@ -2476,7 +2476,7 @@ which is using npm internally and supports provenance statements independently o
 
 ---
 
-##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmRegistry"></a>
+##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmRegistry"></a>
 
 - *Deprecated:* use `npmRegistryUrl` instead
 
@@ -2492,7 +2492,7 @@ Cannot be set together with `npmRegistryUrl`.
 
 ---
 
-##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmRegistryUrl"></a>
+##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmRegistryUrl"></a>
 
 ```typescript
 public readonly npmRegistryUrl: string;
@@ -2507,7 +2507,7 @@ Must be a URL (e.g. start with "https://" or "http://")
 
 ---
 
-##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmTokenSecret"></a>
+##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmTokenSecret"></a>
 
 ```typescript
 public readonly npmTokenSecret: string;
@@ -2520,7 +2520,7 @@ GitHub secret which contains the NPM token to use when publishing packages.
 
 ---
 
-##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.packageManager"></a>
+##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.packageManager"></a>
 
 ```typescript
 public readonly packageManager: NodePackageManager;
@@ -2533,7 +2533,7 @@ The Node Package Manager used to execute scripts.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="packageName" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="packageName" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.packageName"></a>
 
 ```typescript
 public readonly packageName: string;
@@ -2546,7 +2546,7 @@ The "name" in package.json.
 
 ---
 
-##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.peerDependencyOptions"></a>
+##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.peerDependencyOptions"></a>
 
 ```typescript
 public readonly peerDependencyOptions: PeerDependencyOptions;
@@ -2558,7 +2558,7 @@ Options for `peerDeps`.
 
 ---
 
-##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.peerDeps"></a>
+##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.peerDeps"></a>
 
 ```typescript
 public readonly peerDeps: string[];
@@ -2585,7 +2585,7 @@ test your module against the lowest peer version required.
 
 ---
 
-##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pnpmVersion"></a>
+##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pnpmVersion"></a>
 
 ```typescript
 public readonly pnpmVersion: string;
@@ -2598,7 +2598,7 @@ The version of PNPM to use if using PNPM as a package manager.
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="repository" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="repository" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -2612,7 +2612,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-repository
 
 ---
 
-##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.repositoryDirectory"></a>
+##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.repositoryDirectory"></a>
 
 ```typescript
 public readonly repositoryDirectory: string;
@@ -2624,7 +2624,7 @@ If the package.json for your package is not in the root directory (for example i
 
 ---
 
-##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.scopedPackagesOptions"></a>
+##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.scopedPackagesOptions"></a>
 
 ```typescript
 public readonly scopedPackagesOptions: ScopedPackagesOptions[];
@@ -2637,7 +2637,7 @@ Options for privately hosted scoped packages.
 
 ---
 
-##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.scripts"></a>
+##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.scripts"></a>
 
 - *Deprecated:* use `project.addTask()` or `package.setScript()`
 
@@ -2656,7 +2656,7 @@ Also adds the script as a task.
 
 ---
 
-##### `stability`<sup>Optional</sup> <a name="stability" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.stability"></a>
+##### `stability`<sup>Optional</sup> <a name="stability" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.stability"></a>
 
 ```typescript
 public readonly stability: string;
@@ -2668,7 +2668,7 @@ Package's Stability.
 
 ---
 
-##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.yarnBerryOptions"></a>
+##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.yarnBerryOptions"></a>
 
 ```typescript
 public readonly yarnBerryOptions: YarnBerryOptions;
@@ -2681,7 +2681,7 @@ Options for Yarn Berry.
 
 ---
 
-##### `bumpPackage`<sup>Optional</sup> <a name="bumpPackage" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bumpPackage"></a>
+##### `bumpPackage`<sup>Optional</sup> <a name="bumpPackage" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bumpPackage"></a>
 
 ```typescript
 public readonly bumpPackage: string;
@@ -2696,7 +2696,7 @@ This can be any compatible package version, including the deprecated `standard-v
 
 ---
 
-##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jsiiReleaseVersion"></a>
+##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jsiiReleaseVersion"></a>
 
 ```typescript
 public readonly jsiiReleaseVersion: string;
@@ -2709,7 +2709,7 @@ Version requirement of `publib` which is used to publish modules to npm.
 
 ---
 
-##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.majorVersion"></a>
+##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.majorVersion"></a>
 
 ```typescript
 public readonly majorVersion: number;
@@ -2725,7 +2725,7 @@ If not specified, we bump the global latest version.
 
 ---
 
-##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.minMajorVersion"></a>
+##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.minMajorVersion"></a>
 
 ```typescript
 public readonly minMajorVersion: number;
@@ -2743,7 +2743,7 @@ Can not be set together with `majorVersion`.
 
 ---
 
-##### `nextVersionCommand`<sup>Optional</sup> <a name="nextVersionCommand" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.nextVersionCommand"></a>
+##### `nextVersionCommand`<sup>Optional</sup> <a name="nextVersionCommand" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.nextVersionCommand"></a>
 
 ```typescript
 public readonly nextVersionCommand: string;
@@ -2775,7 +2775,7 @@ script can be used to achieve the effects of `minMajorVersion`.
 
 ---
 
-##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmDistTag"></a>
+##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmDistTag"></a>
 
 ```typescript
 public readonly npmDistTag: string;
@@ -2791,7 +2791,7 @@ for each branch.
 
 ---
 
-##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.postBuildSteps"></a>
+##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.postBuildSteps"></a>
 
 ```typescript
 public readonly postBuildSteps: JobStep[];
@@ -2804,7 +2804,7 @@ Steps to execute after build as part of the release workflow.
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prerelease"></a>
 
 ```typescript
 public readonly prerelease: string;
@@ -2817,7 +2817,7 @@ Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pr
 
 ---
 
-##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.publishDryRun"></a>
+##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.publishDryRun"></a>
 
 ```typescript
 public readonly publishDryRun: boolean;
@@ -2830,7 +2830,7 @@ Instead of actually publishing to package managers, just print the publishing co
 
 ---
 
-##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.publishTasks"></a>
+##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.publishTasks"></a>
 
 ```typescript
 public readonly publishTasks: boolean;
@@ -2846,7 +2846,7 @@ in order to create a publishing task for each publishing activity.
 
 ---
 
-##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releasableCommits"></a>
+##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releasableCommits"></a>
 
 ```typescript
 public readonly releasableCommits: ReleasableCommits;
@@ -2859,7 +2859,7 @@ Find commits that should be considered releasable Used to decide if a release is
 
 ---
 
-##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseBranches"></a>
+##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseBranches"></a>
 
 ```typescript
 public readonly releaseBranches: {[ key: string ]: BranchOptions};
@@ -2879,7 +2879,7 @@ be provided for the default branch.
 
 ---
 
-##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseEveryCommit"></a>
+##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseEveryCommit"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.continuous()` instead
 
@@ -2894,7 +2894,7 @@ Automatically release new versions every commit to one of branches in `releaseBr
 
 ---
 
-##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssue"></a>
+##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssue"></a>
 
 ```typescript
 public readonly releaseFailureIssue: boolean;
@@ -2907,7 +2907,7 @@ Create a github issue on every failed publishing task.
 
 ---
 
-##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssueLabel"></a>
+##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseFailureIssueLabel"></a>
 
 ```typescript
 public readonly releaseFailureIssueLabel: string;
@@ -2922,7 +2922,7 @@ Only applies if `releaseFailureIssue` is true.
 
 ---
 
-##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseSchedule"></a>
+##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseSchedule"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.scheduled()` instead
 
@@ -2937,7 +2937,7 @@ CRON schedule to trigger new releases.
 
 ---
 
-##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseTagPrefix"></a>
+##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseTagPrefix"></a>
 
 ```typescript
 public readonly releaseTagPrefix: string;
@@ -2955,7 +2955,7 @@ with the new prefix.
 
 ---
 
-##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseTrigger"></a>
+##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseTrigger"></a>
 
 ```typescript
 public readonly releaseTrigger: ReleaseTrigger;
@@ -2968,7 +2968,7 @@ The release trigger to use.
 
 ---
 
-##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowName"></a>
+##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowName"></a>
 
 ```typescript
 public readonly releaseWorkflowName: string;
@@ -2981,7 +2981,7 @@ The name of the default release workflow.
 
 ---
 
-##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowSetupSteps"></a>
+##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflowSetupSteps"></a>
 
 ```typescript
 public readonly releaseWorkflowSetupSteps: JobStep[];
@@ -2993,7 +2993,7 @@ A set of workflow steps to execute in order to setup the workflow container.
 
 ---
 
-##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.versionrcOptions"></a>
+##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.versionrcOptions"></a>
 
 ```typescript
 public readonly versionrcOptions: {[ key: string ]: any};
@@ -3008,7 +3008,7 @@ Given values either append to default configuration or overwrite values in it.
 
 ---
 
-##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowContainerImage"></a>
+##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowContainerImage"></a>
 
 ```typescript
 public readonly workflowContainerImage: string;
@@ -3021,7 +3021,7 @@ Container image to use for GitHub workflows.
 
 ---
 
-##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOn"></a>
+##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOn"></a>
 
 ```typescript
 public readonly workflowRunsOn: string[];
@@ -3034,7 +3034,7 @@ Github Runner selection labels.
 
 ---
 
-##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOnGroup"></a>
+##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowRunsOnGroup"></a>
 
 ```typescript
 public readonly workflowRunsOnGroup: GroupRunnerOptions;
@@ -3046,7 +3046,7 @@ Github Runner Group selection options.
 
 ---
 
-##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.defaultReleaseBranch"></a>
+##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.defaultReleaseBranch"></a>
 
 ```typescript
 public readonly defaultReleaseBranch: string;
@@ -3059,7 +3059,7 @@ The name of the main release branch.
 
 ---
 
-##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -3072,7 +3072,7 @@ A directory which will contain build artifacts.
 
 ---
 
-##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.autoApproveUpgrades"></a>
+##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.autoApproveUpgrades"></a>
 
 ```typescript
 public readonly autoApproveUpgrades: boolean;
@@ -3087,7 +3087,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: boolean;
@@ -3100,7 +3100,7 @@ Define a GitHub workflow for building PRs.
 
 ---
 
-##### `buildWorkflowOptions`<sup>Optional</sup> <a name="buildWorkflowOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowOptions"></a>
+##### `buildWorkflowOptions`<sup>Optional</sup> <a name="buildWorkflowOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowOptions"></a>
 
 ```typescript
 public readonly buildWorkflowOptions: BuildWorkflowOptions;
@@ -3112,7 +3112,7 @@ Options for PR build workflow.
 
 ---
 
-##### ~~`buildWorkflowTriggers`~~<sup>Optional</sup> <a name="buildWorkflowTriggers" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowTriggers"></a>
+##### ~~`buildWorkflowTriggers`~~<sup>Optional</sup> <a name="buildWorkflowTriggers" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.buildWorkflowTriggers"></a>
 
 - *Deprecated:* - Use `buildWorkflowOptions.workflowTriggers`
 
@@ -3127,7 +3127,7 @@ Build workflow triggers.
 
 ---
 
-##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.bundlerOptions"></a>
+##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.bundlerOptions"></a>
 
 ```typescript
 public readonly bundlerOptions: BundlerOptions;
@@ -3139,7 +3139,7 @@ Options for `Bundler`.
 
 ---
 
-##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.checkLicenses"></a>
+##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.checkLicenses"></a>
 
 ```typescript
 public readonly checkLicenses: LicenseCheckerOptions;
@@ -3154,7 +3154,7 @@ This setting will cause the build to fail, if any prohibited or not allowed lice
 
 ---
 
-##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeCov"></a>
+##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeCov"></a>
 
 ```typescript
 public readonly codeCov: boolean;
@@ -3167,7 +3167,7 @@ Define a GitHub workflow step for sending code coverage metrics to https://codec
 
 ---
 
-##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.codeCovTokenSecret"></a>
+##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.codeCovTokenSecret"></a>
 
 ```typescript
 public readonly codeCovTokenSecret: string;
@@ -3180,7 +3180,7 @@ Define the secret name for a specified https://codecov.io/ token A secret is req
 
 ---
 
-##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.copyrightOwner"></a>
+##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.copyrightOwner"></a>
 
 ```typescript
 public readonly copyrightOwner: string;
@@ -3193,7 +3193,7 @@ License copyright owner.
 
 ---
 
-##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.copyrightPeriod"></a>
+##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.copyrightPeriod"></a>
 
 ```typescript
 public readonly copyrightPeriod: string;
@@ -3206,7 +3206,7 @@ The copyright years to put in the LICENSE file.
 
 ---
 
-##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.dependabot"></a>
+##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.dependabot"></a>
 
 ```typescript
 public readonly dependabot: boolean;
@@ -3221,7 +3221,7 @@ Cannot be used in conjunction with `depsUpgrade`.
 
 ---
 
-##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.dependabotOptions"></a>
+##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.dependabotOptions"></a>
 
 ```typescript
 public readonly dependabotOptions: DependabotOptions;
@@ -3234,7 +3234,7 @@ Options for dependabot.
 
 ---
 
-##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.depsUpgrade"></a>
+##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.depsUpgrade"></a>
 
 ```typescript
 public readonly depsUpgrade: boolean;
@@ -3249,7 +3249,7 @@ Cannot be used in conjunction with `dependabot`.
 
 ---
 
-##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.depsUpgradeOptions"></a>
+##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.depsUpgradeOptions"></a>
 
 ```typescript
 public readonly depsUpgradeOptions: UpgradeDependenciesOptions;
@@ -3262,7 +3262,7 @@ Options for `UpgradeDependencies`.
 
 ---
 
-##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.gitignore"></a>
+##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: string[];
@@ -3274,7 +3274,7 @@ Additional entries to .gitignore.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jest"></a>
 
 ```typescript
 public readonly jest: boolean;
@@ -3287,7 +3287,7 @@ Setup jest unit tests.
 
 ---
 
-##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.jestOptions"></a>
+##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.jestOptions"></a>
 
 ```typescript
 public readonly jestOptions: JestOptions;
@@ -3300,7 +3300,7 @@ Jest options.
 
 ---
 
-##### ~~`mutableBuild`~~<sup>Optional</sup> <a name="mutableBuild" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.mutableBuild"></a>
+##### ~~`mutableBuild`~~<sup>Optional</sup> <a name="mutableBuild" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.mutableBuild"></a>
 
 - *Deprecated:* - Use `buildWorkflowOptions.mutableBuild`
 
@@ -3321,7 +3321,7 @@ Implies that PR builds do not have anti-tamper checks.
 
 ---
 
-##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmignore"></a>
+##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmignore"></a>
 
 - *Deprecated:* - use `project.addPackageIgnore`
 
@@ -3335,7 +3335,7 @@ Additional entries to .npmignore.
 
 ---
 
-##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmignoreEnabled"></a>
+##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmignoreEnabled"></a>
 
 ```typescript
 public readonly npmignoreEnabled: boolean;
@@ -3348,7 +3348,7 @@ Defines an .npmignore file. Normally this is only needed for libraries that are 
 
 ---
 
-##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.npmIgnoreOptions"></a>
+##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.npmIgnoreOptions"></a>
 
 ```typescript
 public readonly npmIgnoreOptions: IgnoreFileOptions;
@@ -3360,7 +3360,7 @@ Configuration options for .npmignore file.
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="package" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="package" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.package"></a>
 
 ```typescript
 public readonly package: boolean;
@@ -3373,7 +3373,7 @@ Defines a `package` task that will produce an npm tarball under the artifacts di
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prettier"></a>
 
 ```typescript
 public readonly prettier: boolean;
@@ -3386,7 +3386,7 @@ Setup prettier.
 
 ---
 
-##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prettierOptions"></a>
+##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prettierOptions"></a>
 
 ```typescript
 public readonly prettierOptions: PrettierOptions;
@@ -3399,7 +3399,7 @@ Prettier options.
 
 ---
 
-##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenDevDependency"></a>
+##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenDevDependency"></a>
 
 ```typescript
 public readonly projenDevDependency: boolean;
@@ -3412,7 +3412,7 @@ Indicates of "projen" should be installed as a devDependency.
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJs"></a>
 
 ```typescript
 public readonly projenrcJs: boolean;
@@ -3425,7 +3425,7 @@ Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcJsOptions"></a>
 
 ```typescript
 public readonly projenrcJsOptions: ProjenrcOptions;
@@ -3438,7 +3438,7 @@ Options for .projenrc.js.
 
 ---
 
-##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenVersion"></a>
+##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenVersion"></a>
 
 ```typescript
 public readonly projenVersion: string;
@@ -3451,7 +3451,7 @@ Version of projen to install.
 
 ---
 
-##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplate"></a>
+##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplate"></a>
 
 ```typescript
 public readonly pullRequestTemplate: boolean;
@@ -3464,7 +3464,7 @@ Include a GitHub pull request template.
 
 ---
 
-##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplateContents"></a>
+##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.pullRequestTemplateContents"></a>
 
 ```typescript
 public readonly pullRequestTemplateContents: string[];
@@ -3477,7 +3477,7 @@ The contents of the pull request template.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.release"></a>
 
 ```typescript
 public readonly release: boolean;
@@ -3490,7 +3490,7 @@ Add release management to this project.
 
 ---
 
-##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseToNpm"></a>
+##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseToNpm"></a>
 
 ```typescript
 public readonly releaseToNpm: boolean;
@@ -3503,7 +3503,7 @@ Automatically release to npm when new versions are introduced.
 
 ---
 
-##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflow"></a>
+##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.releaseWorkflow"></a>
 
 - *Deprecated:* see `release`.
 
@@ -3518,7 +3518,7 @@ DEPRECATED: renamed to `release`.
 
 ---
 
-##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowBootstrapSteps"></a>
+##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowBootstrapSteps"></a>
 
 ```typescript
 public readonly workflowBootstrapSteps: JobStep[];
@@ -3531,7 +3531,7 @@ Workflow steps to use in order to bootstrap this repo.
 
 ---
 
-##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowGitIdentity"></a>
+##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowGitIdentity"></a>
 
 ```typescript
 public readonly workflowGitIdentity: GitIdentity;
@@ -3544,7 +3544,7 @@ The git identity to use in workflows.
 
 ---
 
-##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowNodeVersion"></a>
+##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowNodeVersion"></a>
 
 ```typescript
 public readonly workflowNodeVersion: string;
@@ -3559,7 +3559,7 @@ Always use this option if your GitHub Actions workflows require a specific to ru
 
 ---
 
-##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.workflowPackageCache"></a>
+##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.workflowPackageCache"></a>
 
 ```typescript
 public readonly workflowPackageCache: boolean;
@@ -3572,7 +3572,7 @@ Enable Node.js package cache in GitHub workflows.
 
 ---
 
-##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.disableTsconfig"></a>
+##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.disableTsconfig"></a>
 
 ```typescript
 public readonly disableTsconfig: boolean;
@@ -3585,7 +3585,7 @@ Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.jso
 
 ---
 
-##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.disableTsconfigDev"></a>
+##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.disableTsconfigDev"></a>
 
 ```typescript
 public readonly disableTsconfigDev: boolean;
@@ -3598,7 +3598,7 @@ Do not generate a `tsconfig.dev.json` file.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -3611,7 +3611,7 @@ Docgen by Typedoc.
 
 ---
 
-##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -3624,7 +3624,7 @@ Docs directory.
 
 ---
 
-##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.entrypointTypes"></a>
+##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.entrypointTypes"></a>
 
 ```typescript
 public readonly entrypointTypes: string;
@@ -3637,7 +3637,7 @@ The .d.ts file that includes the type declarations for this module.
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.eslint"></a>
 
 ```typescript
 public readonly eslint: boolean;
@@ -3650,7 +3650,7 @@ Setup eslint.
 
 ---
 
-##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.eslintOptions"></a>
+##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.eslintOptions"></a>
 
 ```typescript
 public readonly eslintOptions: EslintOptions;
@@ -3663,7 +3663,7 @@ Eslint options.
 
 ---
 
-##### `libdir`<sup>Optional</sup> <a name="libdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.libdir"></a>
+##### `libdir`<sup>Optional</sup> <a name="libdir" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -3676,7 +3676,7 @@ Typescript  artifacts output directory.
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcTs"></a>
 
 ```typescript
 public readonly projenrcTs: boolean;
@@ -3689,7 +3689,7 @@ Use TypeScript for your projenrc file (`.projenrc.ts`).
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.projenrcTsOptions"></a>
 
 ```typescript
 public readonly projenrcTsOptions: ProjenrcOptions;
@@ -3701,7 +3701,7 @@ Options for .projenrc.ts.
 
 ---
 
-##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.sampleCode"></a>
+##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.sampleCode"></a>
 
 ```typescript
 public readonly sampleCode: boolean;
@@ -3714,7 +3714,7 @@ Generate one-time sample in `src/` and `test/` if there are no files there.
 
 ---
 
-##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.srcdir"></a>
+##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -3727,7 +3727,7 @@ Typescript sources directory.
 
 ---
 
-##### `testdir`<sup>Optional</sup> <a name="testdir" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.testdir"></a>
+##### `testdir`<sup>Optional</sup> <a name="testdir" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -3745,7 +3745,7 @@ compile the code in-memory.
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfigOptions;
@@ -3758,7 +3758,7 @@ Custom TSConfig.
 
 ---
 
-##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfigOptions;
@@ -3771,7 +3771,7 @@ Custom tsconfig options for the development tsconfig.json file (used for testing
 
 ---
 
-##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsconfigDevFile"></a>
+##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsconfigDevFile"></a>
 
 ```typescript
 public readonly tsconfigDevFile: string;
@@ -3784,7 +3784,7 @@ The name of the development tsconfig.json file.
 
 ---
 
-##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.tsJestOptions"></a>
+##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.tsJestOptions"></a>
 
 ```typescript
 public readonly tsJestOptions: TsJestOptions;
@@ -3796,7 +3796,7 @@ Options for ts-jest.
 
 ---
 
-##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.typescriptVersion"></a>
+##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.typescriptVersion"></a>
 
 ```typescript
 public readonly typescriptVersion: string;
@@ -3812,7 +3812,7 @@ same minor, so we recommend using a `~` dependency (e.g. `~1.2.3`).
 
 ---
 
-##### `prMention`<sup>Optional</sup> <a name="prMention" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.prMention"></a>
+##### `prMention`<sup>Optional</sup> <a name="prMention" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.prMention"></a>
 
 ```typescript
 public readonly prMention: string;
@@ -3822,7 +3822,7 @@ public readonly prMention: string;
 
 ---
 
-##### `reactNativeVersion`<sup>Optional</sup> <a name="reactNativeVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.reactNativeVersion"></a>
+##### `reactNativeVersion`<sup>Optional</sup> <a name="reactNativeVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.reactNativeVersion"></a>
 
 ```typescript
 public readonly reactNativeVersion: string;
@@ -3832,7 +3832,7 @@ public readonly reactNativeVersion: string;
 
 ---
 
-##### `reactVersion`<sup>Optional</sup> <a name="reactVersion" id="ProjenReactNativeAmplify.ReactNativeAmplifyProjectOptions.property.reactVersion"></a>
+##### `reactVersion`<sup>Optional</sup> <a name="reactVersion" id="projen-react-native-amplify.ReactNativeAmplifyProjectOptions.property.reactVersion"></a>
 
 ```typescript
 public readonly reactVersion: string;

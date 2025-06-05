@@ -1,8 +1,9 @@
 {
   "name": "ProjenReactNativeAmplify",
+  "description": "A typescript React Native project with an AWS Amplify backend",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cameron.findlay/ProjenReactNativeAmplify.git"
+    "url": "https://github.com/Findlay20/ProjenReactNativeAmplify.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -30,7 +31,7 @@
   },
   "author": {
     "name": "Cameron Findlay",
-    "email": "cameron.findlay@unicard-uk.com",
+    "email": "cammy.findlay20@gmail.com",
     "organization": false
   },
   "devDependencies": {
@@ -55,6 +56,10 @@
     "ts-jest": "^29.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "constructs": "^10.4.2",
+    "projen": "^0.92.9"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",

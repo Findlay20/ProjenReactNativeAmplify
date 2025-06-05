@@ -23,7 +23,7 @@ const project = new cdk.JsiiProject({
   jsiiVersion: '~5.8.0',
   projenrcTs: true,
   description: 'A typescript React Native project with an AWS Amplify backend',
-  packageName: 'projen-react-native-amplify',
+  packageName: '@findlay20/projen-react-native-amplify',
   peerDeps: ['constructs@^10.4.2', 'projen@^0.92.9'],
   devDeps: ['constructs@10.4.2', 'projen@0.92.9'],
   tsconfig: {

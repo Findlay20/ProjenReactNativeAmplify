@@ -1,5 +1,5 @@
 {
-  "name": "projen-react-native-amplify",
+  "name": "@findlay20/projen-react-native-amplify",
   "description": "A typescript React Native project with an AWS Amplify backend",
   "repository": {
     "type": "git",
@@ -64,8 +64,7 @@
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "version": "0.0.0",
   "jest": {

@@ -5,7 +5,6 @@ import path from "path";
 
 export interface ReactNativeAmplifyProjectOptions extends TypeScriptProjectOptions {
     readonly prMention?: string
-    readonly typescriptVersion?: string
     readonly reactVersion?: string
     readonly reactNativeVersion?: string
 }
@@ -96,9 +95,7 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
     };
 
     protected setUpDependencies(options: ReactNativeAmplifyProjectOptions) {
-        const typescriptVersion = options.typescriptVersion ?? '^5.8.3';
         const reactVersion = options.reactVersion ?? '19.0.0'
-
         const reactNativeVersion = options.reactNativeVersion ?? '0.79.2'
 
         this.addDeps(
@@ -126,7 +123,6 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
             `constructs@^10.4.2`,
             `esbuild@^0.25.5`,
             `tsx@^4.19.4`,
-            `typescript@${typescriptVersion}`,
             ...(options.devDeps || [])
         )
     };

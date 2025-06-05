@@ -1,7 +1,7 @@
 import { cdk } from 'projen';
 import { GithubCredentials } from 'projen/lib/github/github-credentials';
 
-const repoUrl = 'https://github.com/Findlay20/ProjenReactNativeAmplify.git';
+const repoUrl = 'https://github.com/Findlay20/projen-react-native-amplify.git';
 
 const project = new cdk.JsiiProject({
 

@@ -5,7 +5,7 @@ const repoUrl = 'https://github.com/Findlay20/ProjenReactNativeAmplify.git';
 
 const project = new cdk.JsiiProject({
 
-  name: '@Findlay20/projen-react-native-amplify', // Required for GitHub Packages
+  name: '@findlay20/projen-react-native-amplify', // Required for GitHub Packages
   repositoryUrl: repoUrl, // Required for GitHub Packages
   repository: repoUrl, // Required for GitHub Packages
   npmRegistryUrl: 'https://npm.pkg.github.com', // Required for GitHub Packages

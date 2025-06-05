@@ -1,7 +1,7 @@
 import { JsonFile, SampleDir, SampleFile } from "projen";
 import { TypeScriptProject, TypeScriptProjectOptions } from "projen/lib/typescript";
 
-import path from "path";
+import * as path from "path";
 
 export interface ReactNativeAmplifyProjectOptions extends TypeScriptProjectOptions {
     readonly prMention?: string
@@ -17,7 +17,7 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
             sampleCode: false,
             pullRequestTemplate: false,
         });
-        this.setUpDependencies(options);
+        this.configureDependencies(options);
         this.addScripts({
             "start": "expo start",
             "prebuild": "expo prebuild",
@@ -94,7 +94,7 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
         })  
     };
 
-    protected setUpDependencies(options: ReactNativeAmplifyProjectOptions) {
+    protected configureDependencies(options: ReactNativeAmplifyProjectOptions) {
         const reactVersion = options.reactVersion ?? '19.0.0'
         const reactNativeVersion = options.reactNativeVersion ?? '0.79.2'
 

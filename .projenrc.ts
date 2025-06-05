@@ -24,8 +24,8 @@ const project = new cdk.JsiiProject({
   projenrcTs: true,
   description: 'A typescript React Native project with an AWS Amplify backend',
   packageName: 'ProjenReactNativeAmplify',
-  peerDeps: ['constructs', 'projen'],
-  devDeps: ['constructs', 'projen'],
+  peerDeps: ['constructs@^10.4.2', 'projen@^0.92.9'],
+  devDeps: ['constructs@10.4.2', 'projen@0.92.9'],
   tsconfig: {
     compilerOptions: {
       esModuleInterop: true,

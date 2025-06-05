@@ -7,7 +7,7 @@ const project = new cdk.JsiiProject({
 
   name: '@Findlay20/ProjenReactNativeAmplify', // Required for GitHub Packages
   repositoryUrl: repoUrl, // Required for GitHub Packages
-  repository: repoUrl, // Required for GitHub Packages 
+  repository: repoUrl, // Required for GitHub Packages
   npmRegistryUrl: 'https://npm.pkg.github.com', // Required for GitHub Packages
   releaseToNpm: true, // Required for GitHub Packages
   depsUpgradeOptions: {
@@ -29,8 +29,8 @@ const project = new cdk.JsiiProject({
   tsconfig: {
     compilerOptions: {
       esModuleInterop: true,
-    }
-  }
+    },
+  },
   // deps: [],
 });
-project.synth(); 
+project.synth();

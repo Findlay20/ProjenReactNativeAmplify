@@ -1,1 +1,1 @@
-export * from './ReactNativeAmplifyProject'
+export * from './ReactNativeAmplifyProject';

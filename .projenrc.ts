@@ -5,7 +5,7 @@ const repoUrl = 'https://github.com/Findlay20/ProjenReactNativeAmplify.git';
 
 const project = new cdk.JsiiProject({
 
-  name: '@Findlay20/ProjenReactNativeAmplify', // Required for GitHub Packages
+  name: '@Findlay20/projen-react-native-amplify', // Required for GitHub Packages
   repositoryUrl: repoUrl, // Required for GitHub Packages
   repository: repoUrl, // Required for GitHub Packages
   npmRegistryUrl: 'https://npm.pkg.github.com', // Required for GitHub Packages
@@ -23,7 +23,7 @@ const project = new cdk.JsiiProject({
   jsiiVersion: '~5.8.0',
   projenrcTs: true,
   description: 'A typescript React Native project with an AWS Amplify backend',
-  packageName: 'ProjenReactNativeAmplify',
+  packageName: 'projen-react-native-amplify',
   peerDeps: ['constructs@^10.4.2', 'projen@^0.92.9'],
   devDeps: ['constructs@10.4.2', 'projen@0.92.9'],
   tsconfig: {

@@ -19,22 +19,22 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
       pullRequestTemplate: false,
       tsconfig: {
         compilerOptions: {
-          jsx: TypeScriptJsxMode.REACT_JSX
+          jsx: TypeScriptJsxMode.REACT_JSX,
         },
         include: ['src/**/*.ts', 'src/**/*.tsx'],
       },
       tsconfigDev: {
         compilerOptions: {
-          jsx: TypeScriptJsxMode.REACT_JSXDEV
+          jsx: TypeScriptJsxMode.REACT_JSXDEV,
         },
-        include: ['src/**/*.ts', 'src/**/*.tsx', "test/**/*.ts", ".projenrc.ts", "projenrc/**/*.ts"],
+        include: ['src/**/*.ts', 'src/**/*.tsx', 'test/**/*.ts', '.projenrc.ts', 'projenrc/**/*.ts'],
       },
       eslint: true,
       eslintOptions: {
         dirs: ['src'],
         fileExtensions: ['.ts', '.tsx'],
         devdirs: ['test', 'projenrc'],
-      }
+      },
     });
     this.configureDependencies(options);
     this.addScripts({

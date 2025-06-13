@@ -37,8 +37,8 @@ describe('ReactNativeAmplifyProject', () => {
     const snapshot = synthSnapshot(project);
 
     expect(snapshot['src/HelloWorld.tsx']).toBeDefined();
-    expect(snapshot['index.js']).toBeDefined();
-    expect(snapshot['App.js']).toBeDefined();
+    expect(snapshot['index.ts']).toBeDefined();
+    expect(snapshot['App.tsx']).toBeDefined();
   });
 
   test('Expo app.json is created', () => {

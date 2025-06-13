@@ -1,5 +1,6 @@
 import * as path from 'path';
 import { JsonFile, SampleDir, SampleFile } from 'projen';
+import { TypeScriptJsxMode } from 'projen/lib/javascript';
 import { TypeScriptProject, TypeScriptProjectOptions } from 'projen/lib/typescript';
 
 
@@ -16,6 +17,24 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
       ...options,
       sampleCode: false,
       pullRequestTemplate: false,
+      tsconfig: {
+        compilerOptions: {
+          jsx: TypeScriptJsxMode.REACT_JSX
+        },
+        include: ['src/**/*.ts', 'src/**/*.tsx'],
+      },
+      tsconfigDev: {
+        compilerOptions: {
+          jsx: TypeScriptJsxMode.REACT_JSXDEV
+        },
+        include: ['src/**/*.ts', 'src/**/*.tsx', "test/**/*.ts", ".projenrc.ts", "projenrc/**/*.ts"],
+      },
+      eslint: true,
+      eslintOptions: {
+        dirs: ['src'],
+        fileExtensions: ['.ts', '.tsx'],
+        devdirs: ['test', 'projenrc'],
+      }
     });
     this.configureDependencies(options);
     this.addScripts({
@@ -78,7 +97,7 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
 
   protected createReactNativeFiles() {
     new SampleDir(this, 'src', {
-      files: { 'HelloWorld.tsx': path.join(__dirname, '..', 'initial-files', 'src', 'HelloWorld.tsx') },
+      sourceDir: path.join(__dirname, '..', 'initial-files', 'src'),
     });
     new SampleFile(this, 'index.js', {
       sourcePath: path.join(__dirname, '..', 'initial-files', 'react-native', 'index.js'),

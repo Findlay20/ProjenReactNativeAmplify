@@ -21,12 +21,14 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
       tsconfig: {
         extends: TypescriptConfigExtends.fromPaths(['expo/tsconfig.base']),
         compilerOptions: {
+          module: "esnext",
           jsx: TypeScriptJsxMode.REACT_JSX,
         },
         include: ['*.ts', '*.tsx', 'src/**/*.ts', 'src/**/*.tsx'], // update
       },
       tsconfigDev: {
         compilerOptions: {
+          module: "esnext",
           jsx: TypeScriptJsxMode.REACT_JSXDEV,
         },
         include: ['*.ts', '*.tsx', 'src/**/*.ts', 'src/**/*.tsx', 'test/**/*.ts', '.projenrc.ts', 'projenrc/**/*.ts'],

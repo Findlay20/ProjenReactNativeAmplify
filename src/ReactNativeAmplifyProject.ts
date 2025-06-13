@@ -1,6 +1,6 @@
 import * as path from 'path';
 import { JsonFile, SampleDir, SampleFile } from 'projen';
-import { TypeScriptJsxMode } from 'projen/lib/javascript';
+import { TypescriptConfigExtends, TypeScriptJsxMode } from 'projen/lib/javascript';
 import { TypeScriptProject, TypeScriptProjectOptions } from 'projen/lib/typescript';
 
 
@@ -14,20 +14,22 @@ export interface ReactNativeAmplifyProjectOptions extends TypeScriptProjectOptio
 export class ReactNativeAmplifyProject extends TypeScriptProject {
   constructor(options: ReactNativeAmplifyProjectOptions) {
     super({
+      entrypoint: 'index.ts',
       ...options,
       sampleCode: false,
       pullRequestTemplate: false,
       tsconfig: {
+        extends: TypescriptConfigExtends.fromPaths(['expo/tsconfig.base']),
         compilerOptions: {
           jsx: TypeScriptJsxMode.REACT_JSX,
         },
-        include: ['src/**/*.ts', 'src/**/*.tsx'],
+        include: ['*.ts', '*.tsx', 'src/**/*.ts', 'src/**/*.tsx'], // update
       },
       tsconfigDev: {
         compilerOptions: {
           jsx: TypeScriptJsxMode.REACT_JSXDEV,
         },
-        include: ['src/**/*.ts', 'src/**/*.tsx', 'test/**/*.ts', '.projenrc.ts', 'projenrc/**/*.ts'],
+        include: ['*.ts', '*.tsx', 'src/**/*.ts', 'src/**/*.tsx', 'test/**/*.ts', '.projenrc.ts', 'projenrc/**/*.ts'],
       },
       eslint: true,
       eslintOptions: {
@@ -77,6 +79,8 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
               foregroundImage: './assets/adaptive-icon.png',
               backgroundColor: '#FFFFFF',
             },
+            edgeToEdgeEnabled: true,
+            package: `com.anonymous.${this.name}`,
           },
           web: {
             favicon: './assets/favicon.png',

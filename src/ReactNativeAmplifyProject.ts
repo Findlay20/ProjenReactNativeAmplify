@@ -105,11 +105,11 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
     new SampleDir(this, 'src', {
       sourceDir: path.join(__dirname, '..', 'initial-files', 'src'),
     });
-    new SampleFile(this, 'index.js', {
-      sourcePath: path.join(__dirname, '..', 'initial-files', 'react-native', 'index.js'),
+    new SampleFile(this, 'index.ts', {
+      sourcePath: path.join(__dirname, '..', 'initial-files', 'react-native', 'index.ts'),
     });
-    new SampleFile(this, 'App.js', {
-      sourcePath: path.join(__dirname, '..', 'initial-files', 'react-native', 'App.js'),
+    new SampleFile(this, 'App.tsx', {
+      sourcePath: path.join(__dirname, '..', 'initial-files', 'react-native', 'App.tsx'),
     });
   };
 

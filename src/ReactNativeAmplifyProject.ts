@@ -40,7 +40,27 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
         devdirs: ['test', 'projenrc'],
       },
     });
+    this.updateGitIgnore();
     this.configureDependencies(options);
+    this.updateNpmScripts();
+    this.createAmplifyFiles();
+    this.createReactNativeFiles();
+    this.createAssets();
+    this.createAppJson();
+  }
+
+  protected updateGitIgnore() {
+    this.gitignore.addPatterns(
+      'android',
+      'dist/',
+      '.amplify',
+      '.expo',
+      'amplify_outputs*',
+      'amplifyconfiguration*',
+    );
+  }
+
+  protected updateNpmScripts() {
     this.addScripts({
       'start': 'expo start',
       'prebuild': 'expo prebuild',
@@ -51,10 +71,6 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
       'web': 'expo start --web',
       'sandbox': 'ampx sandbox',
     });
-    this.createAmplifyFiles();
-    this.createReactNativeFiles();
-    this.createAssets();
-    this.createAppJson();
   }
 
   protected createAppJson() {

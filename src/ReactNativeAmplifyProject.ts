@@ -142,16 +142,19 @@ export class ReactNativeAmplifyProject extends TypeScriptProject {
     this.addDeps(
       '@aws-amplify/react-native@^1.1.10',
       '@aws-amplify/ui-react-native@^2.5.3',
+      '@expo/metro-runtime@~5.0.4',
       '@react-native-async-storage/async-storage@^2.1.2',
       '@react-native-community/netinfo@^11.4.1',
       'aws-amplify@^6.15.0',
       'expo@~53.0.9',
       'expo-status-bar@~2.2.3',
       `react@${reactVersion}`,
+      'react-dom@19.0.0',
       `react-native@${reactNativeVersion}`,
       'react-native-get-random-values@^1.11.0',
       'react-native-safe-area-context@5.4.1',
       'react-native-url-polyfill@^2.0.0',
+      'react-native-web@^0.20.0',
       ...(options.deps || []),
     );
 
